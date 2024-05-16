@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     mes = 'Enero'
     anio = 2020
-    linea = 'Linea B'
+    linea = '3'
 
     # Filtro
     dfFiltrado = df[(df['anio'] == anio) & (df['mes'] == mes) & (df['linea'] == linea)]
